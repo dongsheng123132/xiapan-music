@@ -1,6 +1,6 @@
 {
   "name": "dsh-xiapan-music",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "虾盘云音乐 · 一句话出歌：AI 写词 + Suno v6 出歌，附带 DSH 技能与 xiapan_music 工具（BYOK，虾盘云 Key）。",
   "type": "module",
   "main": "./index.mjs",

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 — 2026-10-28
+
+- ClawHub 上架补充分类与话题（categories: creative；topics: music / suno / ai-music / text-to-music / agent-skills），便于在音乐类目被发现。
+- 版本号与 ClawHub 已发布 artifact 对齐（npm 首次发布即 0.1.1）。
+
 ## 0.1.0 — 2026-10-28
 
 首个公开版本：**一仓双入口**（DeepSeek Harness 插件 + Agent Skill），把一个虾盘云 API Key 变成「一句话出歌」能力。

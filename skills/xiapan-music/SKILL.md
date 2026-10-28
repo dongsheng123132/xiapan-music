@@ -2,7 +2,7 @@
 name: xiapan-music
 slug: xiapan-music
 displayName: 虾盘云音乐 · 一句话出歌
-version: 0.1.0
+version: 0.1.1
 summary: 一句话生成完整歌曲（AI 写词 + Suno v6，一次 2 首、每首约 2 分钟），下载 mp3；也能出纯音乐 BGM、查余额。BYOK，用虾盘云 Key。
 description: 使用虾盘云音乐生成可播放的完整 AI 歌曲、纯音乐和 BGM，支持一句话出歌、歌词谱曲、AI 写词、纯音乐/背景音乐生成与余额查询。当用户要求写歌、创作歌曲、生成音乐、AI 作曲、把歌词唱出来、做 BGM 或纯音乐、仿写歌曲时使用。Use for AI music generation, song generation, instrumental music and BGM generation, text-to-music, lyrics-to-song, songwriting, vocal music. Not for music search or playback, TTS, transcription, audio conversion or mixing.
 license: MIT
@@ -10,7 +10,7 @@ tags: [music, suno, song, lyrics, bgm, ai-music, xiapan]
 metadata:
   slug: xiapan-music
   displayName: 虾盘云音乐 · 一句话出歌
-  version: 0.1.0
+  version: 0.1.1
   summary: 一句话生成完整歌曲（AI 写词 + Suno v6，一次 2 首、每首约 2 分钟），下载 mp3；也能出纯音乐 BGM、查余额。BYOK，用虾盘云 Key。
   tags: [music, suno, song, lyrics, bgm, ai-music, xiapan]
   homepage: https://tu.u-claw.org.cn
