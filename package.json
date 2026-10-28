@@ -30,6 +30,17 @@
     "xiapan"
   ],
   "license": "MIT",
+  "author": {
+    "name": "火火的（深圳）科技有限公司 / dongsheng123132"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongsheng123132/xiapan-music.git"
+  },
+  "homepage": "https://github.com/dongsheng123132/xiapan-music#readme",
+  "bugs": {
+    "url": "https://github.com/dongsheng123132/xiapan-music/issues"
+  },
   "engines": {
     "node": ">=22"
   },

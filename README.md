@@ -8,8 +8,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D22-brightgreen)](package.json)
+[![Release](https://img.shields.io/github/v/release/dongsheng123132/xiapan-music)](https://github.com/dongsheng123132/xiapan-music/releases/latest)
+[![CI](https://github.com/dongsheng123132/xiapan-music/actions/workflows/ci.yml/badge.svg)](https://github.com/dongsheng123132/xiapan-music/actions/workflows/ci.yml)
 
 ![插件面板示意](assets/demo-panel.png)
+
+**上架入口**：[GitHub](https://github.com/dongsheng123132/xiapan-music) · [SkillHub 技能](https://skillhub.cn/skills/user_abeb50e0/xiapan-music) · ClawHub（`clawhub install xiapan-music`，审核通过后可见） · npm（`dsh-xiapan-music`，发布中） · [Release v0.1.0](https://github.com/dongsheng123132/xiapan-music/releases/tag/v0.1.0)
 
 ---
 
