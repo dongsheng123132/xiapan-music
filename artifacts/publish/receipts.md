@@ -85,3 +85,11 @@ clawhub install xiapan-music
 - 等 dshbase/dshmp 自动收录并回填本回执
 - 全天后再提 awesome-dsh-plugin PR、复查 SkillHub 插件广场收录
 
+
+## awesome-dsh-plugin PR 预置（2026-10-28 16:5x +08）
+
+- 仓库已有旧 fork：`dongsheng123132/awesome-dsh-plugin`（公开 fork）
+- 已建分支 `add-xiapan-music`，并在其中新增 `data/plugins/dongsheng123132__xiapan-music.yml`（commit 895c309，内容按真实 schema：`category: skill` + `description.en/zh` + `icon` 指向 `assets/icon-180.png`）
+- 只等仓龄满 1 天（建仓 2026-10-28 10:39 +08）后开 PR（一条 API 调用）：
+  `gh api repos/awesome-dsh-plugin/awesome-dsh-plugin/pulls -X POST -f title="Add dongsheng123132/xiapan-music" -f head="dongsheng123132:add-xiapan-music" -f base="main" -f body="..."`
+- 定时任务已设在 2026-10-29 10:45 +08 自动执行 PR + 复查收录。
