@@ -16,6 +16,7 @@
 | 入口 | 依赖 | 动作 | 预计 |
 |---|---|---|---|
 | npm `dsh-xiapan-music` | 用户 npm 重新登录 + 2FA OTP（当前 token 401） | `npm publish --registry=https://registry.npmjs.org --otp <OTP>` | 用户配合后 1 分钟 |
+| ~~DSH 插件安装~~ | ✅ **已绕过 npm 发布**：Release 资产直接安装成功 | `dsh plugin --profile web add https://github.com/dongsheng123132/xiapan-music/releases/download/v0.1.1/dsh-xiapan-music-0.1.1.tgz` | 2026-10-28 实测 9.6s |
 | dshbase.com 收录 | npm 发布 | 自动爬 npm（1–2 天，L1–L4 真机安装测试） | 发布后 1–2 天 |
 | dshmp.com 收录 | npm 发布 | 自动爬 npm（≤1 天，无人工审核） | 发布后 ≤1 天 |
 | SkillHub 插件广场 | GitHub 仓 + topics（已完成） | 自动爬 GitHub（每日） | 发布后 ~1 天 |
@@ -50,5 +51,6 @@ clawhub install xiapan-music
 | 2026-10-28 | T1 skill e2e（2 首 200s） | ¥2.4 |
 | 2026-10-28 | T2 插件真机出歌（2 首 169s/172s） | ¥2.41 |
 | **合计** | | **≈ ¥9.4（项目预算 ¥10 内）** |
+
 
 

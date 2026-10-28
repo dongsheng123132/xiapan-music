@@ -39,8 +39,13 @@ ClawHub / SkillHub 上架后也可直接搜「虾盘云音乐」安装。手动�
 ### 方式 B：DeepSeek Harness 插件
 
 ```bash
+# 推荐（npm 审核前也可用）：直接从 GitHub Release 资产安装
+dsh plugin --profile web add https://github.com/dongsheng123132/xiapan-music/releases/download/v0.1.1/dsh-xiapan-music-0.1.1.tgz
+
+# npm 发布后
 dsh plugin --profile web add dsh-xiapan-music
-# 发布前尝鲜：dsh plugin --profile web add github:dongsheng123132/xiapan-music
+# 或从源码
+dsh plugin --profile web add github:dongsheng123132/xiapan-music
 ```
 
 装完重启 DSH，插件会自动注册「音乐」技能与 `xiapan_music` 工具。Key 放法（任选）：
