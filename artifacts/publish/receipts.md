@@ -20,7 +20,7 @@
 | dshmp.com 收录 | npm 发布 | 自动爬 npm（≤1 天，无人工审核） | 发布后 ≤1 天 |
 | SkillHub 插件广场 | GitHub 仓 + topics（已完成） | 自动爬 GitHub（每日） | 发布后 ~1 天 |
 | awesome-dsh-plugin（dsh Discover 索引源） | 仓龄 ≥ 1 天 | 提 PR：`data/plugins/dongsheng123132__xiapan-music.yml`（模板见 docs/publishing.md） | 2026-10-29 后 |
-| skills.sh | 仓库结构（skills/xiapan-music） | 自动索引（或 `npx skills add dongsheng123132/xiapan-music --skill xiapan-music`） | ~1 天 |
+| skills.sh | ✅ **已收录**（2026-10-28 实测 200） | https://www.skills.sh/dongsheng123132/xiapan-music | 立即 | 自动索引 GitHub 仓；`npx skills add dongsheng123132/xiapan-music --skill xiapan-music -y` 已在干净环境实测成功（安装 0.1.1，9 个文件齐全） |
 
 ## 本机安装验收命令（发布后可直接跑）
 
@@ -50,4 +50,5 @@ clawhub install xiapan-music
 | 2026-10-28 | T1 skill e2e（2 首 200s） | ¥2.4 |
 | 2026-10-28 | T2 插件真机出歌（2 首 169s/172s） | ¥2.41 |
 | **合计** | | **≈ ¥9.4（项目预算 ¥10 内）** |
+
 

@@ -10,10 +10,11 @@
 [![Node](https://img.shields.io/badge/node-%3E%3D22-brightgreen)](package.json)
 [![Release](https://img.shields.io/github/v/release/dongsheng123132/xiapan-music)](https://github.com/dongsheng123132/xiapan-music/releases/latest)
 [![CI](https://github.com/dongsheng123132/xiapan-music/actions/workflows/ci.yml/badge.svg)](https://github.com/dongsheng123132/xiapan-music/actions/workflows/ci.yml)
+[![skills.sh](https://skills.sh/b/dongsheng123132/xiapan-music)](https://www.skills.sh/dongsheng123132/xiapan-music)
 
 ![插件面板示意](assets/demo-panel.png)
 
-**上架入口**：[GitHub](https://github.com/dongsheng123132/xiapan-music) · [SkillHub 技能](https://skillhub.cn/skills/user_abeb50e0/xiapan-music) · ClawHub（`clawhub install xiapan-music`，审核通过后可见） · npm（`dsh-xiapan-music`，发布中） · [Release v0.1.0](https://github.com/dongsheng123132/xiapan-music/releases/tag/v0.1.0)
+**上架入口**：[GitHub](https://github.com/dongsheng123132/xiapan-music) · [skills.sh](https://www.skills.sh/dongsheng123132/xiapan-music) · [SkillHub 技能](https://skillhub.cn/skills/user_abeb50e0/xiapan-music) · ClawHub（`clawhub install xiapan-music`，审核通过后可见） · npm（`dsh-xiapan-music`，发布中） · [Release v0.1.1](https://github.com/dongsheng123132/xiapan-music/releases/tag/v0.1.1)
 
 ---
 
@@ -83,3 +84,4 @@ dsh plugin --profile <test> add .      # 隔离 profile 里本地加载插件
 ## License
 
 MIT © 火火的（深圳）科技有限公司 / dongsheng123132
+
