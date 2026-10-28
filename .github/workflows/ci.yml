@@ -1,0 +1,30 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Core ↔ Skill 一致性（sha256）
+        run: node scripts/sync-core.mjs --check
+      - name: Core 单元测试（假 fetch，零扣费）
+        run: node scripts/test-core.mjs
+      - name: 插件/工具测试
+        run: node --test
+      - name: 打包文件清单冒烟
+        run: npm pack --dry-run

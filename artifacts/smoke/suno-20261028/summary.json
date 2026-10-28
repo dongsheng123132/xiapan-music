@@ -1,0 +1,23 @@
+{
+  "taskId": "task_ip5WV2QxqCG1g9hyjIq7DGnZ8MOQYkiI",
+  "clips": [
+    {
+      "file": "C:\\Users\\ZhuanZ\\Desktop\\claude\\u-claw\\xiapan-music\\artifacts\\smoke\\suno-20261028\\clip-1-深夜便利店.mp3",
+      "bytes": 828822,
+      "duration": 34.8,
+      "clip_id": "81c372c4-e32d-4ed7-a59a-4eabf4a33adb",
+      "model": "chirp-hawk",
+      "mv": "v6",
+      "tags": "city pop, upbeat, warm"
+    },
+    {
+      "file": "C:\\Users\\ZhuanZ\\Desktop\\claude\\u-claw\\xiapan-music\\artifacts\\smoke\\suno-20261028\\clip-2-深夜便利店.mp3",
+      "bytes": 588534,
+      "duration": 24.68,
+      "clip_id": "796c6d8a-2992-4397-81a1-fa89c31ae3a8",
+      "model": "chirp-hawk",
+      "mv": "v6",
+      "tags": "city pop, upbeat, warm"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+node_modules/
+.DS_Store
+*.log
+*.tmp
+.tmp/
+# 生成物与实测证据：保留小型 json，忽略音频/视频/图片大件
+artifacts/**/*.mp3
+artifacts/**/*.mp4
+artifacts/**/*.wav
+artifacts/**/*.png
+artifacts/reference/
+artifacts/publish/research/*-raw.json
+!artifacts/publish/**/*.png
+# 本地密钥与临时 profile
+.env
+.env.*
+key.txt
+*.key
+plugin-dsh/test-profile/
+# 开发遗留
+packages/
+
+*.tgz
+

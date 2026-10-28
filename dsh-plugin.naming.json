@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "policy": "dsh-plugin-naming/v1",
+  "plugin": {
+    "namespace": "xiapan",
+    "name": "music",
+    "coordinate": "xiapan/music",
+    "packageName": "dsh-xiapan-music"
+  },
+  "names": {
+    "pluginNames": ["dsh-xiapan-music"],
+    "loaderIds": ["dsh-xiapan-music"],
+    "services": [],
+    "tools": ["xiapan_music"],
+    "commands": [],
+    "skills": ["xiapan-music"],
+    "skillProviders": ["xiapan-music"],
+    "events": [],
+    "settingsNamespaces": [],
+    "routes": []
+  }
+}

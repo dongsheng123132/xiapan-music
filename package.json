@@ -1,0 +1,68 @@
+{
+  "name": "dsh-xiapan-music",
+  "version": "0.1.0",
+  "description": "虾盘云音乐 · 一句话出歌：AI 写词 + Suno v6 出歌，附带 DSH 技能与 xiapan_music 工具（BYOK，虾盘云 Key）。",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.mjs",
+    "cordis.patch.yml",
+    "src/core",
+    "skills/xiapan-music",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-skills",
+    "music",
+    "suno",
+    "ai-music",
+    "text-to-music",
+    "music-generation",
+    "xiapan"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-credentials": ">=0.1.0-rc.6",
+    "@deepseek-ai/dsh-skill-filesystem": ">=0.1.0-rc.6",
+    "@deepseek-ai/dsh-subprocess": ">=0.1.0-rc.6",
+    "@deepseek-ai/dsh-tools": ">=0.1.0-rc.6"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-credentials": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-skill-filesystem": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-subprocess": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-tools": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "test": "node --test --test-isolation=none test/*.test.mjs",
+    "test:isolated": "node --test test/*.test.mjs",
+    "check": "node --check index.mjs && npm test",
+    "pack:check": "npm pack --dry-run"
+  }
+}
+

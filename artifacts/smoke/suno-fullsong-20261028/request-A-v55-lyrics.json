@@ -1,0 +1,9 @@
+{
+  "endpoint": "POST /suno/submit/music",
+  "body": {
+    "prompt": "[Verse 1]\n路灯把影子拉得很长\n末班车开过空空的街\n我把没说完的话\n折成一只纸船 放进夜色里\n\n[Pre-Chorus]\n风掀起衣角 也掀起旧事\n谁没有过 咬着牙的日子\n\n[Chorus]\n晚风会替我把答案吹来\n那些绕远的路 都不算白走\n晚风会替我把答案吹来\n等天亮了 我就往前再走一步\n\n[Verse 2]\n清晨的雾还没散开\n早点摊冒着白白的热气\n有人笑着打招呼\n像什么都没发生过一样\n\n[Bridge]\n如果世界太吵\n就听听心跳的声音\n它一直都在说\n别怕 别怕\n\n[Chorus]\n晚风会替我把答案吹来\n那些绕远的路 都不算白走\n晚风会替我把答案吹来\n等天亮了 我就往前再走一步\n\n[Outro]\n等天亮了\n我就往前再走一步",
+    "tags": "Mandarin Chinese indie folk pop, 96 BPM, 4/4, warm male vocal with clear diction, acoustic guitar, soft live drums, warm bass, subtle strings, hopeful and gentle, storytelling verses, singable chorus, clean studio recording",
+    "title": "晚风里的答案",
+    "mv": "chirp-v5-5"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "label": "e2e-skill-clean-temp",
+  "taskId": "task_IGp1Xry30Q06uleU45CENy0sJNiTNXN5",
+  "model": "chirp-hawk",
+  "mv": "v6",
+  "title": "路灯下的归途",
+  "tags": "Chinese folk pop, warm male vocal, acoustic guitar, 88 BPM, gentle, healing, night city",
+  "costHint": "一次提交约 ¥2.4（一次出 2 首，约 ¥1.2/首，以实际扣费为准）",
+  "nextSteps": {
+    "board": "https://tu.u-claw.org.cn/?utm_source=github&utm_medium=skill&utm_campaign=xiapan-music",
+    "registerKey": "https://api.u-claw.org/?utm_source=github&utm_medium=skill&utm_campaign=xiapan-music",
+    "recharge": "https://api.u-claw.org/recharge?utm_source=github&utm_medium=skill&utm_campaign=xiapan-music",
+    "utm": {
+      "source": "github",
+      "medium": "skill",
+      "campaign": "xiapan-music"
+    },
+    "tip": "去画板做 MV / 继续创作：https://tu.u-claw.org.cn；没有 Key 去 https://api.u-claw.org 领；充值 https://api.u-claw.org/recharge"
+  },
+  "songs": [
+    {
+      "title": "路灯下的归途",
+      "duration": 200.8,
+      "bytes": 4833318,
+      "clipId": "baebc4ad-9780-43b0-894d-5268e4635044",
+      "audioUrl": "https://media.u-claw.org.cn/media/x/x64Z0X9CaOimUEq_pM13TN/aHR0cHM6Ly9hcGlvc3MwLnN5ZG5leS1haS5jb20vaW1nLzExNC90OWlsXzkxZGpBb3BlN1ZOajhpZ1M1b3VqczJnWTcyeFh2V3dqYXdyZjAzdVgwWDQxWmxxZmFpd2phRkFYeGdMWDBrcFhhM2xYWlZ1XzAxR3RzSlZQN01Ua3BfbjFha3BYYTJMMXNKTGtwM3NZYUo4MWFXeFg4a3BmNzJnWHBrbC9iYWViYzRhZC05NzgwLTQzYjAtODk0ZC01MjY4ZTQ2MzUwNDQubXAz/baebc4ad-9780-43b0-894d-5268e4635044.mp3"
+    },
+    {
+      "title": "路灯下的归途",
+      "duration": 202.4,
+      "bytes": 4837710,
+      "clipId": "187e3dac-b176-4f81-82ce-8520f49483ee",
+      "audioUrl": "https://media.u-claw.org.cn/media/x/9kLfeZPcV_UeNDUgNJizCJ/aHR0cHM6Ly9hcGlvc3MyMC5zeWRuZXktYWkuY29tL2ltZy8xMTQvdDlpbF85MWRqQW9wZTdWTmo4aWdTNW91anBRcVhzRnBZdld4ajdNblhwa3VYdmtxMTVscTE4WExqYWhUMXhiOFgwd2xmMFhMWTVWdV8wMUd0c0pWUGFieFl4RlZYYTNUMWF3Vlg4MkxreEZxWDBGbjF4MXAxN01WWWFfcVkwTW0vMTg3ZTNkYWMtYjE3Ni00ZjgxLTgyY2UtODUyMGY0OTQ4M2VlLm1wMw/187e3dac-b176-4f81-82ce-8520f49483ee.mp3"
+    }
+  ]
+}

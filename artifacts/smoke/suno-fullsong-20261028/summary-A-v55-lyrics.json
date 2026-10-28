@@ -1,0 +1,47 @@
+{
+  "label": "A-v55-lyrics",
+  "taskId": "task_04AglAxKjBF7iZzBDLW6X2isb361T5JE",
+  "mv": "chirp-v5-5",
+  "instrumental": false,
+  "elapsedMs": 74293,
+  "finalStatus": "SUCCESS",
+  "progress": "100%",
+  "clips": [
+    {
+      "clip_id": "7b9b4034-f6ca-4263-aef3-98bdeaa0a765",
+      "title": "晚风里的答案",
+      "duration": 131.36,
+      "model_name": "chirp-hawk",
+      "major_model_version": "v6",
+      "audio_url": "https://media.u-claw.org.cn/media/x/xMTqWUinn_R-xeQRRyiliI/aHR0cHM6Ly9hcGlvc3MzOC5zeWRuZXktYWkuY29tL2ltZy8xMTQvdDlpbF85MWRqQW9wZTdWTmo4aWdTNW91anBlNGY3TWwxMDFsajdrc2tzUXVYME1zMUFUZ1k3a3BqYXdxazhpTGs3UW1rYV9zWDVWdV8wMUd0c0pWUGEtclk3MXFrc1FUMTcyZ1h2LXNrcC1tZjBKTFhwUW1YMHdtMTBGVll4V3gvN2I5YjQwMzQtZjZjYS00MjYzLWFlZjMtOThiZGVhYTBhNzY1Lm1wMw/7b9b4034-f6ca-4263-aef3-98bdeaa0a765.mp3",
+      "status": "complete",
+      "file": "C:\\Users\\ZhuanZ\\Desktop\\claude\\u-claw\\opentu-uclaw\\xiapan-music\\artifacts\\smoke\\suno-fullsong-20261028\\clip-A-v55-lyrics-1.mp3",
+      "bytes": 3020982
+    },
+    {
+      "clip_id": "37797458-5160-4ce9-ab17-13a05ac45421",
+      "title": "晚风里的答案",
+      "duration": 131.16,
+      "model_name": "chirp-hawk",
+      "major_model_version": "v6",
+      "audio_url": "https://media.u-claw.org.cn/media/x/bxume32nslsFzOTLF7N1xL/aHR0cHM6Ly9hcGlvc3MyMC5zeWRuZXktYWkuY29tL2ltZy8xMTQvdDlpbF85MWRqQW9wZTdWTmo4aWdTNW91anAxclhwd3JYMEZxamFGblh4M3VYdlhMZjVUZ2t4UXJqYVFwa2EzVGs3MWxYYS1BMTVWdV8wMUd0c0pWUGFKeDFhTDRZOC1zWDdpTGY3UW5ZN2tUa3AzVlgwaThYcGtyMTgtcVh4ZzQvMzc3OTc0NTgtNTE2MC00Y2U5LWFiMTctMTNhMDVhYzQ1NDIxLm1wMw/37797458-5160-4ce9-ab17-13a05ac45421.mp3",
+      "status": "complete",
+      "file": "C:\\Users\\ZhuanZ\\Desktop\\claude\\u-claw\\opentu-uclaw\\xiapan-music\\artifacts\\smoke\\suno-fullsong-20261028\\clip-A-v55-lyrics-2.mp3",
+      "bytes": 3070326
+    }
+  ],
+  "balance": {
+    "before": {
+      "hard_limit_usd": 77.206124,
+      "total_usage": 322.282,
+      "remainToken": 36991652
+    },
+    "after": {
+      "hard_limit_usd": 76.006124,
+      "total_usage": 442.282,
+      "remainToken": 35791652
+    },
+    "costToken": 1200000,
+    "costCnyApprox": 2.4
+  }
+}
