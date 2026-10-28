@@ -1,29 +1,21 @@
 # awesome-dsh-plugin 收录条目（仓龄满 1 天后提 PR 用）
-# 目标仓库：https://github.com/<awesome-dsh-plugin 仓库>（见 docs/publishing.md §9）
+# 目标仓库：https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
 # 文件路径：data/plugins/dongsheng123132__xiapan-music.yml
-# 必填：url / name / category / description.en；icon 可选 180x180。
-# CI 硬门槛：仓库年龄 ≥ 1 天 + 根 package.json 声明 dsh.bundle + topics 含 dsh-plugin + 描述与代码一致。
+# 规则（contributing.md 实测）：url 必须与仓库完全一致；name 用 owner/repo；
+#   category 取固定列表之一（agi/ui/usage/theme/model/identity/session/memory/tools/wsl/browser/vision/voice/docs/skill/workflow/git/notify/dev/security/remote/market/fun）；
+#   description.en 必填（一句话、以句号结尾、必须与代码一致、不得夸大）；zh 可选；
+#   icon 可选（GitHub 托管位图）。硬门槛：dsh.bundle + dsh-plugin topic + 真实代码 + 仓龄 ≥ 1 天。
 
-name: 虾盘云音乐 · 一句话出歌
 url: https://github.com/dongsheng123132/xiapan-music
-category: media
+name: dongsheng123132/xiapan-music
+category: skill
 description:
   en: >-
-    Xiapan Music — say one sentence and get a full song: AI writes the lyrics, Suno V6
-    renders 2 complete tracks (mp3, ~2 min each) and downloads them. Also makes
-    instrumental BGM, writes lyrics-only, and checks your Xiapan API balance. Ships both
-    as a DeepSeek Harness plugin (bundled skill + xiapan_music tool) and a standalone
-    Agent Skill. BYOK with a Xiapan API key; zero-config on Xiapan USB / U-King devices.
+    Generates complete AI songs (vocals plus full arrangement) from a theme or from provided lyrics,
+    and instrumental BGM, through a bundled xiapan-music skill and a xiapan_music DSH tool;
+    also queries the Xiapan API balance. Uses a user-supplied Xiapan API key (BYOK), and saves the
+    generated mp3 files on the DSH host.
   zh: >-
-    一句话出歌：AI 写词 + Suno V6 编曲演唱，一次出 2 首完整歌（mp3，每首约 2 分钟）并自动下载；
-    也支持已有歌词谱曲、纯音乐 BGM、只写歌词、查余额。同一个仓同时是 DeepSeek Harness 插件
-    （内置技能 + xiapan_music 工具）和独立 Agent Skill。BYOK 虾盘云 Key；装了虾盘 U 盘 / U-King 的电脑零配置。
-icon: ./assets/icon-512.png
-tags:
-  - ai-music
-  - suno
-  - music-generation
-  - text-to-music
-  - agent-skills
-  - dsh-plugin
-  - xiapan
+    通过内置的 xiapan-music 技能与 xiapan_music 工具，按主题或已有歌词生成完整 AI 歌曲（人声与完整编曲）
+    以及纯音乐 BGM，并可查询虾盘云 API 余额；使用用户自带的虾盘云 Key（BYOK），生成的 mp3 保存在 DSH 主机上。
+icon: https://raw.githubusercontent.com/dongsheng123132/xiapan-music/main/assets/icon-180.png

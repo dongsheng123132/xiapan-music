@@ -224,6 +224,8 @@ curl -s https://registry.npmjs.org/dsh-xiapan-music | node -e "let s='';process.
 
 ### 5.2 要提交的文件内容
 
+> **权威内容以 `artifacts/publish/awesome-entry.yml` 为准**（已按 awesome 仓库 `contributing.md` 的固定 category 列表与 `owner__repo.yml` 命名核对；category 用 `skill`，icon 指向仓库内 `assets/icon-180.png`）。下面是从该文件同步的副本：
+
 `data/plugins/dongsheng123132__xiapan-music.yml`：
 
 ```yaml
@@ -231,14 +233,23 @@ url: https://github.com/dongsheng123132/xiapan-music
 name: dongsheng123132/xiapan-music
 category: skill
 description:
-  en: 'Xiapan Music turns one sentence into a full song: AI writes Chinese or English lyrics, Suno v6 renders two tracks, and the mp3 can be downloaded. It also generates instrumental BGM, checks the Xiapan API balance, and runs on a bring-your-own Xiapan key with zero config on Xiapan USB devices.'
-  zh: '虾盘云音乐：一句话生成完整歌曲（AI 写词 + Suno v6 出 2 首，可下载 mp3），也能生成纯音乐 BGM、查询虾盘云余额；BYOK，装了虾盘 U 盘免配置。'
+  en: >-
+    Generates complete AI songs (vocals plus full arrangement) from a theme or from provided lyrics,
+    and instrumental BGM, through a bundled xiapan-music skill and a xiapan_music DSH tool;
+    also queries the Xiapan API balance. Uses a user-supplied Xiapan API key (BYOK), and saves the
+    generated mp3 files on the DSH host.
+  zh: >-
+    通过内置的 xiapan-music 技能与 xiapan_music 工具，按主题或已有歌词生成完整 AI 歌曲（人声与完整编曲）
+    以及纯音乐 BGM，并可查询虾盘云 API 余额；使用用户自带的虾盘云 Key（BYOK），生成的 mp3 保存在 DSH 主机上。
 icon: https://raw.githubusercontent.com/dongsheng123132/xiapan-music/main/assets/icon-180.png
 ```
 
-> 规则提醒：`description.en` 必填；**描述含 `: ` 必须加引号**（已加）；**不许营销词**（最强/第一/秒杀），不许夸大能力（「必须是代码里真实存在的」）。
+> 规则提醒：`description.en` 必填；**描述含 `: ` 必须加引号**（已用 `>-` 折叠标量规避）；**不许营销词**（最强/第一/秒杀），不许夸大能力（「必须是代码里真实存在的」）。
+> category 可用值（实测列表）：agi/ui/usage/theme/model/identity/session/memory/tools/wsl/browser/vision/voice/docs/skill/workflow/git/notify/dev/security/remote/market/fun。
 
 ### 5.3 提交命令（Lead 执行，属 push 范畴，需用户/Lead 授权）
+
+> 本机 git 走 schannel 会报 `AcquireCredentialsHandle`，且沙箱禁止 git 子进程；**在 SG 服务器上执行 fork/clone/push**（GitHub 直连可用），PR 用本地 `gh`（走 socks 代理）创建。
 
 ```bash
 # 方案 A：有 fork 权限时
