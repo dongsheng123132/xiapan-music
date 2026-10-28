@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | GitHub 公开仓 | ✅ 已推送，CI 通过（12s） | https://github.com/dongsheng123132/xiapan-music | 2026-10-28 10:40+08 | 12 个 topics：dsh / dsh-plugin / deepseek-harness / agent-skills / ai-music / suno / music-generation / text-to-music / lyrics / bgm / xiapan / songwriting |
 | GitHub Release | ✅ v0.1.0（代码已 bump 0.1.1，v0.1.1 release 随后） | https://github.com/dongsheng123132/xiapan-music/releases/tag/v0.1.0 | 2026-10-28 10:41+08 | v0.1.1 仅 metadata/版本对齐，无功能变更 |
-| SkillHub 技能 | ⏳ 已提交，**审核中**（skillId=297799，页面 200，下载接口暂 404 待审核） | https://skillhub.cn/skills/user_abeb50e0/xiapan-music | 2026-10-28 10:40+08 | 审核通过后 `skillhub install xiapan-music --namespace user_abeb50e0` 才可用 |
+| SkillHub 技能 | ⏳ 已提交，**审核中**（skillId=297799，页面 200，versions=1，下载接口 404；SSG 数据显示安全扫描 `keen=queued`、`sanbu=queued`「排队中」） | https://skillhub.cn/skills/user_abeb50e0/xiapan-music | 2026-10-28 10:40+08 | 平台安全扫描队列；通过后 `skillhub install xiapan-music --namespace user_abeb50e0` 才可用 |
 | ClawHub 技能 | ⏳ **0.1.1 已提交，待安全发布**（0.1.0 id=k972v7hrpjv0ds1zwperc1yx858h43pp；0.1.1 versionId=k97b1ptq47bs8sjewf8xx73v898h4p75，attemptId=zx7284aer96fg31dge0bs406rs8h53dc） | 预期 https://clawhub.ai/dongsheng123132/skills/xiapan-music | 0.1.0: 10:39+08 / 0.1.1: 10:53+08 | `inspect` 显示 Moderate **CLEAN**、Reason `pending.publication`（自动检查已过，等待发布）；已补 `--categories creative` + topics music/suno/ai-music/text-to-music/agent-skills |
 
 ## 待办（依赖）
@@ -54,3 +54,33 @@ clawhub install xiapan-music
 
 
 
+
+
+---
+
+## 当前状态总览（2026-10-28 11:25 +08）
+
+**已可验证 / 已上线**
+- GitHub 公开仓（12 topics）、CI 全绿、Release v0.1.1 + 可安装 tarball 资产
+- DSH 插件：`dsh plugin --profile web add https://github.com/dongsheng123132/xiapan-music/releases/download/v0.1.1/dsh-xiapan-music-0.1.1.tgz`（隔离 profile 实测 9.6s 安装成功，bundle 自动注册）
+- Agent Skill：`npx skills add dongsheng123132/xiapan-music --skill xiapan-music -y`（干净 Node 22 环境实测 9 文件全部安装）
+- skills.sh 详情页 200：https://www.skills.sh/dongsheng123132/xiapan-music
+- SkillHub 技能页 200（versions=1，安全扫描 keen/sanbu 排队中）
+- ClawHub 已提交 0.1.1（自动扫描 CLEAN，`pending.publication` 等待发布）
+
+**待外部条件（平台队列，非我方动作）**
+- ClawHub 发布：`pending.publication`（Moderate CLEAN）
+- SkillHub 审核：`keen=queued` / `sanbu=queued`（平台安全扫描队列）
+- SkillHub 插件广场：每日爬 GitHub（仓库条件已满足，等下一轮抓取）
+- awesome-dsh-plugin：仓龄需 ≥ 1 天 → 2026-10-29 10:39+ 后提 PR（条目已备：`artifacts/publish/awesome-entry.yml`）
+- dshbase / dshmp：依赖 npm 发布后自动收录（各 1–2 天）
+
+**唯一需要用户做的硬前置**
+1. **npm 凭据**：token 已失效（401）。二选一：① 在 npm tokens 页建 Automation token 发给 Lead（发完可删）；② 本机 `npm login --registry=https://registry.npmjs.org` 后给一个恢复码当 OTP。
+2. （可选，SkillHub 审核通过后）在 SkillHub 控制台给技能补分类/图标；ClawHub 已带 creative 分类与 topics，无需操作。
+
+**npm 发布后 Lead 自动收尾**
+- `npm publish --registry=https://registry.npmjs.org --otp <OTP>` → 验证 `registry.npmjs.org/dsh-xiapan-music`
+- 把 README/INSTALL-MATRIX 安装命令切回 `dsh plugin add dsh-xiapan-music`
+- 等 dshbase/dshmp 自动收录并回填本回执
+- 全天后再提 awesome-dsh-plugin PR、复查 SkillHub 插件广场收录
