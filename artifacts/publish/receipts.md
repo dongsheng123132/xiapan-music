@@ -93,3 +93,19 @@ clawhub install xiapan-music
 - 只等仓龄满 1 天（建仓 2026-10-28 10:39 +08）后开 PR（一条 API 调用）：
   `gh api repos/awesome-dsh-plugin/awesome-dsh-plugin/pulls -X POST -f title="Add dongsheng123132/xiapan-music" -f head="dongsheng123132:add-xiapan-music" -f base="main" -f body="..."`
 - 定时任务已设在 2026-10-29 10:45 +08 自动执行 PR + 复查收录。
+
+## 链接 QA（2026-10-28 16:42 +08，全部实测）
+
+| 链接 | 结果 |
+|---|---|
+| https://tu.u-claw.org.cn/?utm_source=github&utm_medium=readme&utm_campaign=xiapan-music | 200（UTM 保留） |
+| https://api.u-claw.org.cn/recharge?utm_source=clawhub&utm_medium=skill&utm_campaign=xiapan-music | 200 |
+| https://api.u-claw.org.cn/（领 Key/控制台） | 200 |
+| https://skillhub.cn/skills/user_abeb50e0/xiapan-music | 200 |
+| https://api.skillhub.cn/api/v1/download?slug=xiapan-music&namespace=user_abeb50e0 | 200（38KB zip，可安装） |
+| https://github.com/dongsheng123132/xiapan-music | 200 |
+| https://github.com/dongsheng123132/xiapan-music/releases/download/v0.1.1/dsh-xiapan-music-0.1.1.tgz | 200（53,375B，可直接 dsh plugin add） |
+| https://www.skills.sh/dongsheng123132/xiapan-music | 200 |
+| raw icon-180 / README | 200 / 200 |
+| npm registry `dsh-xiapan-music` | 404（待发布） |
+| SkillHub 插件广场搜索 xiapan | 0 条（待每日爬取） |
