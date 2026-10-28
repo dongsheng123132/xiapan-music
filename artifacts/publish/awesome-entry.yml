@@ -1,0 +1,29 @@
+# awesome-dsh-plugin 收录条目（仓龄满 1 天后提 PR 用）
+# 目标仓库：https://github.com/<awesome-dsh-plugin 仓库>（见 docs/publishing.md §9）
+# 文件路径：data/plugins/dongsheng123132__xiapan-music.yml
+# 必填：url / name / category / description.en；icon 可选 180x180。
+# CI 硬门槛：仓库年龄 ≥ 1 天 + 根 package.json 声明 dsh.bundle + topics 含 dsh-plugin + 描述与代码一致。
+
+name: 虾盘云音乐 · 一句话出歌
+url: https://github.com/dongsheng123132/xiapan-music
+category: media
+description:
+  en: >-
+    Xiapan Music — say one sentence and get a full song: AI writes the lyrics, Suno V6
+    renders 2 complete tracks (mp3, ~2 min each) and downloads them. Also makes
+    instrumental BGM, writes lyrics-only, and checks your Xiapan API balance. Ships both
+    as a DeepSeek Harness plugin (bundled skill + xiapan_music tool) and a standalone
+    Agent Skill. BYOK with a Xiapan API key; zero-config on Xiapan USB / U-King devices.
+  zh: >-
+    一句话出歌：AI 写词 + Suno V6 编曲演唱，一次出 2 首完整歌（mp3，每首约 2 分钟）并自动下载；
+    也支持已有歌词谱曲、纯音乐 BGM、只写歌词、查余额。同一个仓同时是 DeepSeek Harness 插件
+    （内置技能 + xiapan_music 工具）和独立 Agent Skill。BYOK 虾盘云 Key；装了虾盘 U 盘 / U-King 的电脑零配置。
+icon: ./assets/icon-512.png
+tags:
+  - ai-music
+  - suno
+  - music-generation
+  - text-to-music
+  - agent-skills
+  - dsh-plugin
+  - xiapan

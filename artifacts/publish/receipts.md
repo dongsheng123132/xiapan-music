@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | GitHub 公开仓 | ✅ 已推送，CI 通过（12s） | https://github.com/dongsheng123132/xiapan-music | 2026-10-28 10:40+08 | 12 个 topics：dsh / dsh-plugin / deepseek-harness / agent-skills / ai-music / suno / music-generation / text-to-music / lyrics / bgm / xiapan / songwriting |
 | GitHub Release | ✅ v0.1.0 | https://github.com/dongsheng123132/xiapan-music/releases/tag/v0.1.0 | 2026-10-28 10:41+08 | |
-| SkillHub 技能 | ✅ 已发布（skillId=297799） | https://skillhub.cn/skills/user_abeb50e0/xiapan-music | 2026-10-28 10:40+08 | 页面已 200；0 下载（刚发） |
+| SkillHub 技能 | ⏳ 已提交，**审核中**（skillId=297799，页面 200，下载接口暂 404 待审核） | https://skillhub.cn/skills/user_abeb50e0/xiapan-music | 2026-10-28 10:40+08 | 审核通过后 `skillhub install xiapan-music --namespace user_abeb50e0` 才可用 |
 | ClawHub 技能 | ✅ 已提交，**审核中**（pending.publication） | id=k972v7hrpjv0ds1zwperc1yx858h43pp | 2026-10-28 10:39+08 | 审核通过后公开；URL 预期 `https://clawhub.ai/dongsheng123132/skills/xiapan-music` |
 
 ## 待办（依赖）
@@ -50,3 +50,4 @@ clawhub install xiapan-music
 | 2026-10-28 | T1 skill e2e（2 首 200s） | ¥2.4 |
 | 2026-10-28 | T2 插件真机出歌（2 首 169s/172s） | ¥2.41 |
 | **合计** | | **≈ ¥9.4（项目预算 ¥10 内）** |
+
