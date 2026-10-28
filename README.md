@@ -56,6 +56,14 @@ dsh plugin --profile web add dsh-xiapan-music
 - **查余额**：这把 Key 还能写多少歌；
 - 出歌后给下一步 CTA：去**虾盘云画板**贴画面、排歌词、做 MV。
 
+## 示例作品
+
+真机跑出来的一首：[《凌晨两点的便利店》](examples/凌晨两点的便利店.md) — 一句话「深夜便利店的民谣，唱给加班的年轻人」→ AI 写词 → Suno V6 出 2 首完整歌（169s / 172s），约 ¥2.4、76 秒。
+
+## 谁怎么装
+
+DSH / ClawHub / SkillHub / npx skills / 手动拷贝 分别怎么装：见 [docs/INSTALL-MATRIX.md](docs/INSTALL-MATRIX.md)。
+
 ## 仓库结构（一仓双入口）
 
 ```
