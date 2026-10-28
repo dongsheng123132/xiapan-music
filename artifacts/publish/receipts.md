@@ -8,8 +8,8 @@
 |---|---|---|---|---|
 | GitHub 公开仓 | ✅ 已推送，CI 通过（12s） | https://github.com/dongsheng123132/xiapan-music | 2026-10-28 10:40+08 | 12 个 topics：dsh / dsh-plugin / deepseek-harness / agent-skills / ai-music / suno / music-generation / text-to-music / lyrics / bgm / xiapan / songwriting |
 | GitHub Release | ✅ v0.1.0（代码已 bump 0.1.1，v0.1.1 release 随后） | https://github.com/dongsheng123132/xiapan-music/releases/tag/v0.1.0 | 2026-10-28 10:41+08 | v0.1.1 仅 metadata/版本对齐，无功能变更 |
-| SkillHub 技能 | ⏳ 已提交，**审核中**（skillId=297799，页面 200，versions=1，下载接口 404；SSG 数据显示安全扫描 `keen=queued`、`sanbu=queued`「排队中」） | https://skillhub.cn/skills/user_abeb50e0/xiapan-music | 2026-10-28 10:40+08 | 平台安全扫描队列；通过后 `skillhub install xiapan-music --namespace user_abeb50e0` 才可用 |
-| ClawHub 技能 | ⏳ **0.1.1 已提交，待安全发布**（0.1.0 id=k972v7hrpjv0ds1zwperc1yx858h43pp；0.1.1 versionId=k97b1ptq47bs8sjewf8xx73v898h4p75，attemptId=zx7284aer96fg31dge0bs406rs8h53dc） | 预期 https://clawhub.ai/dongsheng123132/skills/xiapan-music | 0.1.0: 10:39+08 / 0.1.1: 10:53+08 | `inspect` 显示 Moderate **CLEAN**、Reason `pending.publication`（自动检查已过，等待发布）；已补 `--categories creative` + topics music/suno/ai-music/text-to-music/agent-skills |
+| SkillHub 技能 | ✅ **已上架**（v0.1.0，category=design-media，安全报告 keen/sanbu 均 benign「安全，无风险」，downloads=4） | https://skillhub.cn/skills/user_abeb50e0/xiapan-music | 2026-10-28 10:40+08 | ✅ 实测 `skillhub install xiapan-music --namespace user_abeb50e0` 安装成功（10 文件），安装后 `balance.mjs` 可跑 |
+| ClawHub 技能 | ⏳ **卡在平台 pending.publication（已确认为平台已知 bug，已提支持 issue #4114）**（0.1.0 versionId=k972v7hrpjv0ds1zwperc1yx858h43pp；0.1.1 versionId=k97b1ptq47bs8sjewf8xx73v898h4p75，attemptId=zx7284aer96fg31dge0bs406rs8h53dc） | https://github.com/openclaw/clawhub/issues/4114 | 提交 10:39/10:53+08 | moderation CLEAN（engine v2.4.26）但版本从未公开；同类 issue #4087 由维护者手动 recover 后发布；等维护者处理 |
 
 ## 待办（依赖）
 
@@ -84,3 +84,4 @@ clawhub install xiapan-music
 - 把 README/INSTALL-MATRIX 安装命令切回 `dsh plugin add dsh-xiapan-music`
 - 等 dshbase/dshmp 自动收录并回填本回执
 - 全天后再提 awesome-dsh-plugin PR、复查 SkillHub 插件广场收录
+
