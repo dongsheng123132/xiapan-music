@@ -114,9 +114,10 @@ clawhub install xiapan-music
 
 | 目录 | 状态 | 链接 |
 |---|---|---|
-| **1024Store 目录（deepseek1024.com）** | ✅ **PR 已自动合并**（static-review SUCCESS → merge SUCCESS） | [PR #742](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/742)，条目 `catalog/plugins/dongsheng123132--xiapan-music.json`（category=skill） |
+| **1024Store 目录（deepseek1024.com）** | ✅ **PR #742 已自动合并**（static-review SUCCESS → merge SUCCESS）；目录仓 `catalog/README.md` 与 commit `60bd005` 已含 `xiapan-music`；站点 API 同步可能延迟 | [PR #742](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/742)，条目 `catalog/plugins/dongsheng123132--xiapan-music.json`（category=skill） |
 | awesome-dsh-plugin（dsh Discover 索引源） | ⏳ PR 已开、MERGEABLE、只有 1 个文件；CI `check` 进行中/待维护者批准 | [PR #10256](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/10256)（旧 PR #10255 因基于过期 fork main 已关闭重开） |
 | SkillHub 插件广场 | ⏳ 未收录：平台索引 16,844 条 vs GitHub `dsh-plugin` topic 24,073 个仓库；本账号已有 43 个仓库被收录、索引内也存在 0★ 仓库 → 不是星标门槛，判断为发现/分页上限导致新仓漏抓，继续观察 | API: https://api.skillhub.cn/api/v1/plugins?q=xiapan → total=0 |
 | dshbase / dshmp | ⏳ 依赖 npm 发布 | — |
 | ClawHub | ⏳ 平台 bug：issue [#4114](https://github.com/openclaw/clawhub/issues/4114) 已受理（P0），等维护者 recover | — |
 | npm | ⏳ token 401，等用户凭据 | — |
+
